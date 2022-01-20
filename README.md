@@ -3,10 +3,9 @@
 <h1>Google Gmail Extension</h1>
 </div>
 
-**Extension Name:** Google Gmail
-**Description:** A Non-Visible component that helps you to send mail from your App Inventor App using **Google App Script**.
-**Date Buit:** [date=2022-01-19 timezone="Asia/Kolkata"]
-**Requirements:** Google Account, App Script deployment key
+**Extension Name:** Google Gmail   
+**Description:** A Non-Visible component that helps you to send mail from your App Inventor App using **Google App Script**.   
+**Requirements:** Google Account, App Script deployment key   
 
 
 ## Blocks
@@ -16,22 +15,22 @@
 
 ![component_event(1)|616x170, 50%](https://community.appinventor.mit.edu/uploads/default/original/3X/5/9/59f62a0e1d60deb70534df7e0cbb990b17e01a6d.png)
 
-**Description:** Event raised when the error occurred from network connectivity.
-**Params:** errorMessage(String message generated when the error occurred.)
+**Description:** Event raised when the error occurred from network connectivity.   
+**Params:** errorMessage(String message generated when the error occurred.)   
 
 ### Mail Send
 
 ![component_event(2)|546x170, 50%](https://community.appinventor.mit.edu/uploads/default/original/3X/c/7/c7c41877c2a40b966bf6442df4dca6a39238e000.png)
 
-**Description:** Event raised when code execution completed from **Google App Script**, if mail not sent then also this event raised with appropriate status and message.
+**Description:** Event raised when code execution completed from **Google App Script**, if mail not sent then also this event raised with appropriate status and message.   
 **Params:** status("ok" if mail sent successfully), message("mail sent successfully" if mail sent successfully else error message)
 
 ### Send Mail
 
 ![component_method(1)|532x208, 50%](https://community.appinventor.mit.edu/uploads/default/original/3X/d/6/d60bf56746edceef05ca26bec314cd41fc859258.png)
 
-**Description:** Call App Script function to send message to given **mailId** with given **subject** and **body**.
-**Params:** mailId(Email Address of the recipients), subject(Subject of the mail), body(Body text of the mail).
+**Description:** Call App Script function to send message to given **mailId** with given **subject** and **body**.  
+**Params:** mailId(Email Address of the recipients), subject(Subject of the mail), body(Body text of the mail).   
 
 ### Deployment Key
 
